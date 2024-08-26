@@ -8,3 +8,5 @@ jobs:
         steps:
         - name: welcome
           run: echo "welcome to github actions"
+        - name: listing the files
+          run: ls
